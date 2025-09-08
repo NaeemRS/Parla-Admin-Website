@@ -132,8 +132,6 @@ const Index = ({ initialTasks }) => {
               <div className='mt-5'>
                 <img src="/images/map.png" />
               </div>
-
-               
              </div>
           </>
         }
