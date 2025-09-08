@@ -1,0 +1,35 @@
+/* globals.css */
+@import "tailwindcss";
+   
+ :root {
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
+}
+
+body {
+   font-family: "Jost", sans-serif;
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+ .jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:  400;
+  font-style: normal;
+}
+
+.text-black1{
+  color: #202224 !important;
+}
+button{
+  cursor: pointer;
+}
+
+
+ 
