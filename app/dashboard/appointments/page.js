@@ -174,8 +174,7 @@ const Index = ({ initialTasks }) => {
       setCustomers(data?.data || []); // 👈 store employees here
       return
     }
-    // setLoading(false) 
-    // setIsModalOpen(false);
+     // setIsModalOpen(false);
     toast.error("Error Fetcing Customers. Please Try Again.")
   }
 
